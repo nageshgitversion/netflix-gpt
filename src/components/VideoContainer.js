@@ -17,7 +17,7 @@ const VideoContainer = ({ videoId }) => {
     const result = trailers.filter((trailer) => trailer.type === "Trailer");
     const key = result[0].key;
     setTrailerId(key)
-    console.log(key);
+    
   };
 
   useEffect(() => {

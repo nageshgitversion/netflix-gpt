@@ -15,3 +15,5 @@ export const OPTIONS = {
 
 
 export const NOW_PLAY = "https://api.themoviedb.org/3/movie/now_playing?page=1"
+
+export const CDN_LINK = "https://image.tmdb.org/t/p/w300/"
